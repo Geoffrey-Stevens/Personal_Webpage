@@ -1,0 +1,20 @@
+body{
+    background: linear-gradient(-45deg, #054971, #2294D7);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Georgia;
+    color: #FFF;
+    font-size: 2em;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .image {
+    background-image: url("http://www.freeimagehosting.net/commercial-photography/");
+    background-size: cover;
+    background-position: center;
+  }
