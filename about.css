@@ -1,0 +1,42 @@
+nav {
+  width: 100%;
+  max
+  height: 50px;
+  background-color: #cccccc;
+  margin-bottom:  100px;
+}
+ul {
+  height: 50px;
+  list-style-type: none;
+}
+li {
+  float: left;
+  padding-right: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+body{
+    background: linear-gradient(-45deg, #054971, #2294D7);
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+  float: none;
+}
+
+h1 {
+    font-family: Georgia;
+    color: #FFF;
+    font-size: 2em;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+  }
+h3 {
+  font-size: 200%;
+  font-weight: bold;
+  color: #cccccc
+
+}

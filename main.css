@@ -1,3 +1,20 @@
+nav {
+  width: 100%;
+  max
+  height: 50px;
+  background-color: #cccccc;
+  margin-bottom:  100px;
+}
+ul {
+  height: 50px;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin-left: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
 body{
     background: linear-gradient(-45deg, #054971, #2294D7);
     margin: 0;
@@ -13,8 +30,27 @@ h1 {
     width: 100%;
   }
 
-  .image {
-    background-image: url("http://www.freeimagehosting.net/commercial-photography/");
-    background-size: cover;
-    background-position: center;
-  }
+.project-li {
+  float: none;
+  margin-left: 0px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+}
+
+.p3-sub-li {
+  float: none;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  color: #cccccc;
+
+}
+.project-li-p3 {
+  float: none;
+  margin-left: 0px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration: underline;
+}
