@@ -1,57 +1,107 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>"Geoff Stevens"</title>
-    <link href="main.css" type="text/css" rel="stylesheet">
+    <title>"Geoff Stevens - Home"</title>
+
+    <!-- attach Bootstrap 4 css -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- attach own css -->
+
+    <link href="./css/main.css" type="text/css" rel="stylesheet">
   </head>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-    <body>
-      <div class="image">
-        <a>
-          <!-- TODO: Upload mph background -->
-        </a>
-      </div>
-        <a href="https://www.linkedin.com/in/geoffrey-stevens-413ba111b/" target="_blank">
-          <img src=" https://media.licdn.com/dms/image/C5603AQEelmta4ClrAg/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=-fD1mub54MVwJRS8nLekTZAtOZ735sESO-oFcQFrxdc ">
-        </a>
-      <h1>| Geoff Stevens |</h1>
-      <h2> Aspiring fullstack developer and owner of Memphis Esports:</h2>
-        <a href="https://twitter.com/Memphis_Esports" target="_blank">
-          <img src= "https://pbs.twimg.com/profile_images/1010980590609260544/fcCXyjXf_400x400.jpg" >
-        </a>
-      <p>Founded in June of 2018
-        <a href="https://twitter.com/Memphis_Esports" target="_blank">
-          <b>
-            <abbr title="Memphis Esports">MPH</abbr>
-          </b>
-        </a> is an inclusive amateur esports organization sponsoring competition across multiple titles and genres.
-      </p>
-      <!-- TODO: add functional class to differentiate from nav ul -->
-      <h2>"My Portfolio"</h2>
-      <ol>
-        <li class="project-li" >Project 1</li>
-        <li class="project-li" >Project 2</li>
-        <li class="project-li-p3" >Project 3:</li>
 
-        <ul>
-          <li class="p3-sub-li" >Part 1</li>
-          <li class="p3-sub-li" >Part 2</li>
-          <li class="p3-sub-li" >Part 3</li>
-        </ul>
 
-      </ol>
-      <a href= "https://docs.google.com/document/d/15fLsV55ucm8JnScKdYpQVnnL4-N06uOWnjtXTZDoumQ/edit?usp=sharing">
-        <h2>My Resume</h2>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./html/about.html">About</a></li>
+              <li><a href="./html/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div> <!-- end col-md-12 -->
+      </div> <!-- end row -->
+    </header>
+    <main>
+      <div class="container">
+        <div class="row extra-margin-md">
+          <div class="col-md-4">
+            <!-- <div class="image">
+              <a>
+                TODO: Upload mph background
+              </a>
+            </div> -->
+            <a href="https://www.linkedin.com/in/geoffrey-stevens-413ba111b/" target="_blank">
+              <img class="rounded mx-auto d-block" src=" https://media.licdn.com/dms/image/C5603AQEelmta4ClrAg/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=-fD1mub54MVwJRS8nLekTZAtOZ735sESO-oFcQFrxdc ">
+            </a>
+          </div> <!--end col-md-7-->
+          <div class="col-md-8">
+            <h1>| Geoff Stevens |</h1>
+            <h5 class="text-center"> Aspiring fullstack developer and owner of Memphis Esports:</h5>
+          </div>
+        </div> <!--end col-md-3-->
+      </div> <!-- end row -->
+      <div class="row extra-margin-md">
+        <div class="col-md-7 ">
+          <p class="text-center">Founded in June of 2018
+            <a href="https://twitter.com/Memphis_Esports" target="_blank">
+              <b><abbr title="Memphis Esports">MPH</abbr></b>
+            </a>
+            is an inclusive amateur esports organization sponsoring competition across multiple titles and genres.
+          </p>
+        </div> <!-- end col-md-7 -->
 
-      
-    	</body>
+        <div class="col-md-3">
+            <a href="https://twitter.com/Memphis_Esports" target="_blank">
+            <img class="img-fluid" src= "https://pbs.twimg.com/profile_images/1010980590609260544/fcCXyjXf_400x400.jpg" alt="Memphis Esports Logo">
+            </a>
+        </div> <!-- end col-md-3 -->
+      </div> <!-- end row -->
 
+      <div class="row extra-margin-md">
+        <div class="col-md-6 offset-md-1">
+              <!-- TODO: add functional class to differentiate from nav ul-->
+
+            <h2>"My Portfolio"</h2>
+            <ol>
+              <li class="project-li" >Project 1</li>
+              <li class="project-li" >Project 2</li>
+              <li class="project-li-p3" >Project 3:</li>
+
+              <ul>
+                <li class="p3-sub-li" >Part 1</li>
+                <li class="p3-sub-li" >Part 2</li>
+                <li class="p3-sub-li" >Part 3</li>
+              </ul>
+            </ol>
+          </div> <!--end col-md-7-->
+
+          <div class="col-md-2">
+            <a href= "https://docs.google.com/document/d/15fLsV55ucm8JnScKdYpQVnnL4-N06uOWnjtXTZDoumQ/edit?usp=sharing">
+            <h2>My Resume</h2>
+            </a>
+          </div> <!--end col-md-2-->
+
+        </div> <!--end row -->
+      </div> <!--end container-->
+    </main>
+    <footer class="extra-margin-md">
+      <div class="row">
+        <div class="col-md-4">
+          <p>Lipsum</p>
+        </div> <!-- end col-md-4 -->
+        <div class="col-md-4">
+          <p>Lipsum</p>
+        </div> <!-- end col-md-4 -->
+        <div class="col-md-4">
+          <p>Lipsum</p>
+        </div> <!-- end col-md-4 -->
+      </div> <!-- end row -->
+    </footer>
+	</body>
 </html>
