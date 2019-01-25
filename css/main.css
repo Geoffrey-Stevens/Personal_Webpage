@@ -67,3 +67,6 @@ footer {
   background-color: #cccccc;
   margin-top:  100px;
 }
+footer p {
+  font-size: 90%;
+}
